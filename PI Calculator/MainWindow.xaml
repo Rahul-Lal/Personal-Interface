@@ -1,0 +1,36 @@
+﻿<Window x:Class="PI_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PI_Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!--Rows & columns intend to  be a central 5x5 grid, outside boxes serves for spacing-->
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+    
+        <!--Buttons for each page -->
+        <Button x:Uid="btnCalculator" x:Name="btnCalculator" Click="btnCalculator_Click" Grid.Column="1" Grid.Row="1" />
+        <!-- <Button x:Uid="btn" x:Name="btn" Click="" Grid.Column="0" Grid.Row="0" /> -->
+
+    </Grid>
+</Window>
