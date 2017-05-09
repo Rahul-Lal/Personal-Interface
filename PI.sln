@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI Calculator", "PI Calculator\PI Calculator.csproj", "{9FDBDC0C-506D-48B3-9001-6027D869E277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personal Interface", "PI Calculator\Personal Interface.csproj", "{9FDBDC0C-506D-48B3-9001-6027D869E277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

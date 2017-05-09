@@ -1,0 +1,16 @@
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\bin\Debug\Personal Interface.exe.config
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\bin\Debug\Personal Interface.exe
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\bin\Debug\Personal Interface.pdb
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.csprojResolveAssemblyReference.cache
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Calculator.g.cs
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\MainWindow.g.cs
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\App.g.cs
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface_MarkupCompile.cache
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface_MarkupCompile.lref
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Calculator.baml
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\MainWindow.baml
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.g.resources
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\PI_Calculator.Properties.Resources.resources
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.csproj.GenerateResource.Cache
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.exe
+c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.pdb

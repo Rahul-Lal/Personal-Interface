@@ -38,7 +38,7 @@ namespace PI_Calculator {
     /// <summary>
     /// Calculator
     /// </summary>
-    public partial class Page : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
+    public partial class Calculator : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         private bool _contentLoaded;
         

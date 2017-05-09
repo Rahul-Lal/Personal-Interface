@@ -27,9 +27,10 @@ namespace PI_Calculator
             InitializeComponent();
         }
 
+
         private void btnCalculator_Click(object sender, RoutedEventArgs e)
         {
-            // Frame.Navigate(typeof(Calculator));
+            //Frame.Navigate(typeof(Calculator), sender);
         }
     }
 }
