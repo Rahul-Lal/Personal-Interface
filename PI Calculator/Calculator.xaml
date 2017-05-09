@@ -33,6 +33,6 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <TextBox x:Uid="txtOutput" x:Name="" />
+        <TextBox x:Uid="txtOutput" x:Name="txtOutput" Width="auto" Grid.Column="1" Grid.ColumnSpan="8" Grid.Row="0" Grid.RowSpan="1" IsReadOnly="True" />
     </Grid>
 </Page>
