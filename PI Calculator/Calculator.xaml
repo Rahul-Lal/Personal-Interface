@@ -47,6 +47,11 @@
         <Button Content="CE" x:Uid="btnClearEntry" x:Name="btnClearEntry" Grid.Column="2" Grid.Row="5" Click="btnClearEntry_Click" Width="auto" Height="auto"  />
         <Button Content="E" x:Uid="btnClearAll" x:Name="btnClearAll" Grid.Column="3" Grid.Row="5" Click="btnClearAll_Click" Width="auto" Height="auto"  />
         
+        <!--Buttons for function-->
+        <Button Content="+" x:Uid="btnAddition" x:Name="btnAddition" Grid.Column="5" Grid.Row="2" Click="btnAddition_Click" Width="auto" Height="auto"  />
+        <Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="5" Grid.Row="3" Click="" Width="auto" Height="auto"  />
+        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="5" Grid.Row="4" Click="" Width="auto" Height="auto"  />-->
+        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="5" Grid.Row="5" Click="" Width="auto" Height="auto"  />-->
         
         <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
     </Grid>

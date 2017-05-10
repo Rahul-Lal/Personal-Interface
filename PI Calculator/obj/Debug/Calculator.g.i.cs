@@ -89,6 +89,8 @@ namespace PI_Calculator
         internal System.Windows.Controls.Button btnZero;
         internal System.Windows.Controls.Button btnClearEntry;
         internal System.Windows.Controls.Button btnClearAll;
+        internal System.Windows.Controls.Button btnAddition;
+        internal System.Windows.Controls.Button btn;
     }
 }
 
