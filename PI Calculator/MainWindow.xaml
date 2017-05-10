@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PI_Calculator"
         mc:Ignorable="d"
-        Title="Personal Interface | Main Menu" Height="auto" Width="auto">
+        Title="Personal Interface | Main Menu" Height="750" Width="1750">
 
     <Grid>
         <!--Rows & columns intend to  be a central 5x5 grid, outside boxes serves for spacing-->
@@ -30,7 +30,7 @@
         </Grid.ColumnDefinitions>
     
         <!--TextBlock text will change when hovering on a specific button-->
-        <TextBlock x:Name="txtTitle" x:Uid="txtTitle" Grid.Column="1" Text="Personal Interface" Grid.ColumnSpan="5" TextAlignment="Center" FontSize="36" FontFamily="Corbel" />
+        <TextBlock x:Name="txtTitle" x:Uid="txtTitle" Grid.Column="1" Text="Personal Interface" Grid.ColumnSpan="5" TextAlignment="Center" FontSize="60" FontFamily="Corbel" />
 
         <!--Buttons for each page -->
         <Button x:Uid="btnCalculator" Content="Calculator" x:Name="btnCalculator" Click="btnCalculator_Click" Grid.Column="1" Grid.Row="1" />

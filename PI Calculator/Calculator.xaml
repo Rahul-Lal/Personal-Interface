@@ -5,12 +5,10 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PI_Calculator"
       mc:Ignorable="d"
-      Title="Personal Interface | Main Menu" Height="auto" Width="auto">
+      Title="Personal Interface | Calculator" Height="750" Width="1750">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
@@ -29,10 +27,16 @@
             <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <TextBox x:Uid="txtOutput" x:Name="txtOutput" Width="auto" Grid.Column="1" Grid.ColumnSpan="8" Grid.Row="0" Grid.RowSpan="1" IsReadOnly="True" />
+        
+        <!--Read-Only text box for outputting of the values-->
+        <TextBox x:Uid="txtOutput" x:Name="txtOutput" Height="125px" Width="1303px" Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="0" Grid.RowSpan="2" IsReadOnly="True" RenderTransformOrigin="0.48,2.52" Background="{x:Null}" />
+        
+        <!--Buttons for adding numerials-->
+        <Button x:Uid="btnOne" x:Name="btnOne" Grid.Column="1" Grid.Row="4" Click="btnOne_Click" Width="auto" Height="auto"  />
+        <Button x:Uid="btnTwo" x:Name="btnTwo" Grid.Column="2" Grid.Row="4" Click="btnTwo_Click" Width="auto" Height="auto"  />
+        <!--<Button x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
+        <!--<Button x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
     </Grid>
 </Page>
