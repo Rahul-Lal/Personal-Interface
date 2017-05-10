@@ -29,14 +29,25 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        
+
         <!--Read-Only text box for outputting of the values-->
         <TextBox x:Uid="txtOutput" x:Name="txtOutput" Height="125px" Width="1303px" Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="0" Grid.RowSpan="2" IsReadOnly="True" RenderTransformOrigin="0.48,2.52" Background="{x:Null}" />
-        
+
         <!--Buttons for adding numerials-->
-        <Button x:Uid="btnOne" x:Name="btnOne" Grid.Column="1" Grid.Row="4" Click="btnOne_Click" Width="auto" Height="auto"  />
-        <Button x:Uid="btnTwo" x:Name="btnTwo" Grid.Column="2" Grid.Row="4" Click="btnTwo_Click" Width="auto" Height="auto"  />
-        <!--<Button x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
-        <!--<Button x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
+        <Button Content="1" x:Uid="btnOne" x:Name="btnOne" Grid.Column="1" Grid.Row="4" Click="btnOne_Click" Width="auto" Height="auto"  />
+        <Button Content="2" x:Uid="btnTwo" x:Name="btnTwo" Grid.Column="2" Grid.Row="4" Click="btnTwo_Click" Width="auto" Height="auto"  />
+        <Button Content="3" x:Uid="btnThree" x:Name="btnThree" Grid.Column="3" Grid.Row="4" Click="btnThree_Click" Width="auto" Height="auto"  />
+        <Button Content="4" x:Uid="btnFour" x:Name="btnFour" Grid.Column="1" Grid.Row="3" Click="btnFour_Click" Width="auto" Height="auto"  />
+        <Button Content="5" x:Uid="btnFive" x:Name="btnFive" Grid.Column="2" Grid.Row="3" Click="btnFive_Click" Width="auto" Height="auto"  />
+        <Button Content="6" x:Uid="btnSix" x:Name="btnSix" Grid.Column="3" Grid.Row="3" Click="btnSix_Click" Width="auto" Height="auto"  />
+        <Button Content="7" x:Uid="btnSeven" x:Name="btnSeven" Grid.Column="1" Grid.Row="2" Click="btnSeven_Click" Width="auto" Height="auto"  />
+        <Button Content="8" x:Uid="btnEight" x:Name="btnEight" Grid.Column="2" Grid.Row="2" Click="btnEight_Click" Width="auto" Height="auto"  />
+        <Button Content="9" x:Uid="btnNine" x:Name="btnNine" Grid.Column="3" Grid.Row="2" Click="btnNine_Click" Width="auto" Height="auto"  />
+        <Button Content="0" x:Uid="btnZero" x:Name="btnZero" Grid.Column="1" Grid.Row="5" Click="btnZero_Click" Width="auto" Height="auto"  />
+        <Button Content="CE" x:Uid="btnClearEntry" x:Name="btnClearEntry" Grid.Column="2" Grid.Row="5" Click="btnClearEntry_Click" Width="auto" Height="auto"  />
+        <Button Content="E" x:Uid="btnClearAll" x:Name="btnClearAll" Grid.Column="3" Grid.Row="5" Click="btnClearAll_Click" Width="auto" Height="auto"  />
+        
+        
+        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
     </Grid>
 </Page>
