@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PI_Calculator.Classes;
 
 namespace PI_Calculator
 {
@@ -25,8 +26,11 @@ namespace PI_Calculator
             InitializeComponent();
         }
 
-        public string num1, num2;
+        public string num1, num2, answer;
+        private int selectedFunction;
         public int[] functionNum = { 1, 2, 3, 4 };
+
+        calculateFunctions cf = new calculateFunctions();
 
         private void btnOne_Click(object sender, RoutedEventArgs e)
         {
@@ -81,6 +85,52 @@ namespace PI_Calculator
         private void btnClearEntry_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "";
+        }
+
+        private void btnAddition_Click(object sender, RoutedEventArgs e)
+        {
+            selectedFunction = functionNum[0];
+        }
+
+        private void btnMultiplication_Click(object sender, RoutedEventArgs e)
+        {
+            selectedFunction = functionNum[2];
+        }
+
+        private void btnDivision_Click(object sender, RoutedEventArgs e)
+        {
+            selectedFunction = functionNum[3];
+        }
+
+        private void btnEquals_Click(object sender, RoutedEventArgs e)
+        {
+            if(selectedFunction == 1)
+            {
+                cf.Addition(int.Parse(num1), int.Parse(num2));
+
+            }
+            else if (selectedFunction == 2)
+            {
+                cf.Subtraction(int.Parse(num1), int.Parse(num2));
+            }
+            else if (selectedFunction == 3)
+            {
+                cf.Multiplication(int.Parse(num1), int.Parse(num2));
+            }
+            else if (selectedFunction == 4)
+            {
+                cf.Division(int.Parse(num1), int.Parse(num2));
+            }
+        }
+
+        private void btnPI_Click(object sender, RoutedEventArgs e)
+        {
+            txtOutput.Text += Math.PI.ToString();
+        }
+
+        private void btnSubtraction_Click(object sender, RoutedEventArgs e)
+        {
+            selectedFunction = functionNum[1];
         }
 
         private void btnClearAll_Click(object sender, RoutedEventArgs e)
