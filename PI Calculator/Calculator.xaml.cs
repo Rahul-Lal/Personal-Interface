@@ -125,7 +125,7 @@ namespace PI_Calculator
 
         private void btnPI_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += Math.PI.ToString();
+            txtOutput.Text = Math.PI.ToString();
         }
 
         private void btnSubtraction_Click(object sender, RoutedEventArgs e)
