@@ -106,20 +106,20 @@ namespace PI_Calculator
         {
             if(selectedFunction == 1)
             {
-                cf.Addition(int.Parse(num1), int.Parse(num2));
+                cf.additionFunction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
 
             }
             else if (selectedFunction == 2)
             {
-                cf.Subtraction(int.Parse(num1), int.Parse(num2));
+                cf.subtractionFunction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
             }
             else if (selectedFunction == 3)
             {
-                cf.Multiplication(int.Parse(num1), int.Parse(num2));
+                cf.multiplicationFuction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
             }
             else if (selectedFunction == 4)
             {
-                cf.Division(int.Parse(num1), int.Parse(num2));
+                cf.divisionFunction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
             }
         }
 

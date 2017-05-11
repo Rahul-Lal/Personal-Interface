@@ -6,28 +6,44 @@ using System.Threading.Tasks;
 
 namespace PI_Calculator.Classes
 {
-    class calculateFunctions
+    public class calculateFunctions
     {
-        public int numberOne, numberTwo, answer;
+        public double overallAnswer; // Answer when press Equals button
 
-        public void Addition(int num1, int num2)
+        public void additionFunction(double num1, double num2, double answer) // If adding
         {
-
+            answer = num1 + num2;
+            overallAnswer = answer;
         }
 
-        public void Subtraction(int num1, int num2)
+        public void subtractionFunction(double num1, double num2, double answer)// If subtracting
         {
-
+            answer = num1 - num2;
+            overallAnswer = answer;
         }
 
-        public void Multiplication(int num1, int num2)
+        public void multiplicationFuction(double num1, double num2, double answer)// If multiplying
         {
-
+            answer = num1 * num2;
+            overallAnswer = answer;
         }
 
-        public void Division(int num1, int num2)
+        public void divisionFunction(double num1, double num2, double answer)// If dividing
         {
+            answer = num1 / num2;
+            overallAnswer = answer;
+        }
 
+        public void trinityBarrier(double answer)// Obtaining value  that makes trinity
+        {
+            answer = 362880;
+            double value = 1;
+
+            for (double counter = 1; counter <= answer; counter++)
+            {
+                value = value * counter;
+            }
+            overallAnswer = value;
         }
 
     }
