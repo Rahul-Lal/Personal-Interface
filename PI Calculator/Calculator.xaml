@@ -4,8 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PI_Calculator"
-      mc:Ignorable="d"
-      Title="Personal Interface | Calculator" Height="750" Width="1750">
+      mc:Ignorable="d" Height="535" Width="768" Title="Personal Interface | Calculator">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -33,7 +32,7 @@
 
 
         <!--Read-Only text box for outputting of the values-->
-        <TextBox x:Uid="txtOutput" x:Name="txtOutput" Width="1303px" Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="0" Grid.RowSpan="2" IsReadOnly="True" RenderTransformOrigin="0.48,2.52" Background="{x:Null}" Margin="5,20,5,0" />
+        <TextBox x:Uid="txtOutput" x:Name="txtOutput" Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="0" Grid.RowSpan="2" IsReadOnly="True" RenderTransformOrigin="0.48,2.52" Background="{x:Null}" Margin="5,20,0,0" />
 
         <!--Buttons for adding numerials-->
         <Button Content="1" x:Uid="btnOne" x:Name="btnOne" Grid.Column="1" Grid.Row="5" Click="btnOne_Click" Width="auto" Height="auto"  />
@@ -56,7 +55,7 @@
         <Button Content="÷" x:Uid="btnDivision" x:Name="btnDivision" Grid.Column="5" Grid.Row="6" Click="btnDivision_Click" Width="auto" Height="auto"  />
 
         <Button Content="=" x:Uid="btnEquals" x:Name="btnEquals" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="7" Click="btnEquals_Click" Width="auto" Height="auto" />
-        <Button Content="π" x:Uid="btnPI" x:Name="btnPI" Grid.Column="6" Grid.Row="3" Click="btnPI_Click" Width="auto" Height="auto" />
+        <Button Content="p" x:Uid="btnPI" x:Name="btnPI" Grid.Column="6" Grid.Row="3" Click="btnPI_Click" Width="auto" Height="auto" />
         <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="4" Click="" Width="auto" Height="auto" />-->
         <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="5" Click="" Width="auto" Height="auto" />-->
         <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="6" Click="" Width="auto" Height="auto" />-->

@@ -14,3 +14,6 @@ c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator
 c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.csproj.GenerateResource.Cache
 c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.exe
 c:\users\rahul\documents\visual studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\Personal Interface.pdb
+C:\Users\Rahul\Documents\Visual Studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rahul\Documents\Visual Studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\MainMenu.g.cs
+C:\Users\Rahul\Documents\Visual Studio 2017\Projects\PI Calculator\PI Calculator\obj\Debug\MainMenu.baml

@@ -1,19 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using Windows.Foundation;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace PI_Calculator
 {
@@ -27,10 +12,10 @@ namespace PI_Calculator
             InitializeComponent();
         }
 
-
-        private void btnCalculator_Click(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //Frame.Navigate(typeof(Calculator), sender);
+            //HELP: https://www.youtube.com/watch?v=YoZcAx_0rNM
+            mainFrame.NavigationService.Navigate(new MainMenu());
         }
     }
 }

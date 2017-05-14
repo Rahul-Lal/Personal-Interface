@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using PI_Calculator.Classes;
 
 namespace PI_Calculator
 {
@@ -26,118 +25,94 @@ namespace PI_Calculator
             InitializeComponent();
         }
 
-        public string num1, num2, answer;
-        private int selectedFunction;
-        public int[] functionNum = { 1, 2, 3, 4 };
-
-        calculateFunctions cf = new calculateFunctions();
-
         private void btnOne_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "1";
+
         }
 
         private void btnTwo_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "2";
+
         }
 
         private void btnThree_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "3";
+
         }
 
         private void btnFour_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "4";
+
         }
 
         private void btnFive_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "5";
+
         }
 
         private void btnSix_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "6";
+
         }
 
         private void btnSeven_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "7";
+
         }
 
         private void btnEight_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "8";
+
         }
 
         private void btnNine_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "9";
+
         }
 
         private void btnZero_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "0";
+
         }
 
         private void btnClearEntry_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "";
-        }
 
-        private void btnAddition_Click(object sender, RoutedEventArgs e)
-        {
-            selectedFunction = functionNum[0];
-        }
-
-        private void btnMultiplication_Click(object sender, RoutedEventArgs e)
-        {
-            selectedFunction = functionNum[2];
-        }
-
-        private void btnDivision_Click(object sender, RoutedEventArgs e)
-        {
-            selectedFunction = functionNum[3];
-        }
-
-        private void btnEquals_Click(object sender, RoutedEventArgs e)
-        {
-            if(selectedFunction == 1)
-            {
-                cf.additionFunction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
-
-            }
-            else if (selectedFunction == 2)
-            {
-                cf.subtractionFunction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
-            }
-            else if (selectedFunction == 3)
-            {
-                cf.multiplicationFuction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
-            }
-            else if (selectedFunction == 4)
-            {
-                cf.divisionFunction(double.Parse(num1), double.Parse(num2), double.Parse(answer));
-            }
-        }
-
-        private void btnPI_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text = Math.PI.ToString();
-        }
-
-        private void btnSubtraction_Click(object sender, RoutedEventArgs e)
-        {
-            selectedFunction = functionNum[1];
         }
 
         private void btnClearAll_Click(object sender, RoutedEventArgs e)
         {
-            num1 = "";
-            num2 = "";
-            txtOutput.Text += "";
+
+        }
+
+        private void btnAddition_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSubtraction_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMultiplication_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDivision_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnEquals_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPI_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
