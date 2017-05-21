@@ -105,26 +105,67 @@ namespace PI_Calculator
         private void btnAddition_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 1;
+            firstValue = int.Parse(txtOutput.Text);
+            txtOutput.Clear();
         }
 
         private void btnSubtraction_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 2;
+            firstValue = int.Parse(txtOutput.ToString());
+            txtOutput.Clear();
         }
 
         private void btnMultiplication_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 3;
+            firstValue = int.Parse(txtOutput.ToString());
+            txtOutput.Clear();
         }
 
         private void btnDivision_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 4;
+            firstValue = int.Parse(txtOutput.ToString());
+            txtOutput.Clear();
         }
 
         private void btnEquals_Click(object sender, RoutedEventArgs e)
         {
-            
+            if ((arthiSelected == null) || (txtOutput.Text == "") || (firstValue == null) || (secondValue == null))
+            {
+                MessageBox.Show("You did not select a operation");
+            }
+            else
+            {
+                secondValue = int.Parse(txtOutput.Text);
+                txtOutput.Clear();
+
+                if (arthiSelected == arthiSelection[0])
+                {
+                    cf.additionFunction(firstValue, secondValue, answer);
+                    txtOutput.Text = cf.overallAnswer.ToString();
+                }
+                else if (arthiSelected == arthiSelection[1])
+                {
+                    cf.subtractionFunction(firstValue, secondValue, answer);
+                    txtOutput.Text = cf.overallAnswer.ToString();
+                }
+                else if (arthiSelected == arthiSelection[2])
+                {
+                    cf.multiplicationFuction(firstValue, secondValue, answer);
+                    txtOutput.Text = cf.overallAnswer.ToString();
+                }
+                else if (arthiSelected == arthiSelection[3])
+                {
+                    cf.divisionFunction(firstValue, secondValue, answer);
+                    txtOutput.Text = cf.overallAnswer.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("You did not select a operation!");
+                }
+            }
         }
 
         private void btnPI_Click(object sender, RoutedEventArgs e)

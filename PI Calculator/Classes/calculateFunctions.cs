@@ -34,7 +34,7 @@ namespace PI_Calculator.Classes
             overallAnswer = answer;
         }
 
-        public void trinityBarrier(double answer)// Obtaining value  that makes trinity
+        public void trinityBarrier(double answer) // Obtaining value  that makes trinity
         {
             answer = 362880;
             double value = 1;
