@@ -28,7 +28,7 @@ namespace PI_Calculator
             this.WindowTitle = "Personal Interface | Calculator";
         }
 
-        
+        // answer = firstValue + or - or * or / secondValue
         double firstValue, secondValue, answer;
 
         int arthiSelected;
@@ -108,28 +108,28 @@ namespace PI_Calculator
         private void btnAddition_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 1;
-            firstValue = int.Parse(txtOutput.Text);
+            firstValue = double.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
         private void btnSubtraction_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 2;
-            firstValue = int.Parse(txtOutput.Text);
+            firstValue = double.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
         private void btnMultiplication_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 3;
-            firstValue = int.Parse(txtOutput.Text);
+            firstValue = double.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
         private void btnDivision_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 4;
-            firstValue = int.Parse(txtOutput.Text);
+            firstValue = double.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
@@ -141,7 +141,7 @@ namespace PI_Calculator
             }
             else
             {
-                secondValue = int.Parse(txtOutput.Text);
+                secondValue = double.Parse(txtOutput.Text);
                 txtOutput.Clear();
 
                 if (arthiSelected == arthiSelection[0])
