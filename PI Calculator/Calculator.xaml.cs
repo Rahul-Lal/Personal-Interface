@@ -99,7 +99,10 @@ namespace PI_Calculator
 
         private void btnClearAll_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "";
+            firstValue = 0.00;
+            secondValue = 0.00;
+            answer = 0.00;
+            txtOutput.Text = "";
         }
 
         private void btnAddition_Click(object sender, RoutedEventArgs e)
@@ -112,21 +115,21 @@ namespace PI_Calculator
         private void btnSubtraction_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 2;
-            firstValue = int.Parse(txtOutput.ToString());
+            firstValue = int.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
         private void btnMultiplication_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 3;
-            firstValue = int.Parse(txtOutput.ToString());
+            firstValue = int.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
         private void btnDivision_Click(object sender, RoutedEventArgs e)
         {
             arthiSelected = 4;
-            firstValue = int.Parse(txtOutput.ToString());
+            firstValue = int.Parse(txtOutput.Text);
             txtOutput.Clear();
         }
 
