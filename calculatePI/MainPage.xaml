@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="calculatePI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:calculatePI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnOne" Content="1" HorizontalAlignment="Left" Margin="127,260,0,0" VerticalAlignment="Top" Height="98" Width="159" FontSize="32"/>
+        <Button x:Name="btnTwo" Content="2" HorizontalAlignment="Left" Margin="308,260,0,0" VerticalAlignment="Top" Height="98" Width="160" FontSize="32"/>
+        <Button x:Name="btnThree" Content="3" HorizontalAlignment="Left" Margin="492,260,0,0" VerticalAlignment="Top" Height="98" Width="159" FontSize="32"/>
+        <Button x:Name="btnFour" Content="4" HorizontalAlignment="Left" Margin="127,386,0,0" VerticalAlignment="Top" Height="97" Width="159" FontSize="32"/>
+        <Button x:Name="btnFive" Content="5" HorizontalAlignment="Left" Margin="308,386,0,0" VerticalAlignment="Top" Height="97" Width="160" FontSize="32"/>
+        <Button x:Name="btnSix" Content="6" HorizontalAlignment="Left" Margin="492,386,0,0" VerticalAlignment="Top" Height="97" Width="159" FontSize="32"/>
+        <Button x:Name="btnSeven" Content="7" HorizontalAlignment="Left" Margin="127,511,0,0" VerticalAlignment="Top" Height="98" Width="159" FontSize="32"/>
+        <Button x:Name="btnEight" Content="8" HorizontalAlignment="Left" Margin="308,511,0,0" VerticalAlignment="Top" Height="98" Width="160" FontSize="32"/>
+        <Button x:Name="btnNine" Content="9" HorizontalAlignment="Left" Margin="492,511,0,0" VerticalAlignment="Top" Height="98" Width="159" FontSize="32"/>
+        <TextBox x:Name="txtOutput" Text="" HorizontalAlignment="Left" Margin="126,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Height="130" Width="1230" IsReadOnly="True" FontSize="86.667" Background="{x:Null}" TextAlignment="Center" BorderBrush="#FF5F5F5F" Foreground="#FFDAD2D2"/>
+        <Button x:Name="btnZero" Content="0" HorizontalAlignment="Left" Margin="683,512,0,0" VerticalAlignment="Top" Height="98" Width="159" FontSize="32"/>
+        <Button x:Name="btnClearEntry" Content="CE" HorizontalAlignment="Left" Margin="685,260,0,0" VerticalAlignment="Top" Height="97" Width="159" FontSize="32"/>
+        <Button x:Name="btnClearAll" Content="C" HorizontalAlignment="Left" Margin="685,385,0,0" VerticalAlignment="Top" Height="98" Width="159" FontSize="32"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OWNER</Machine>
+    <WindowsUser>hp</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6cc8e6b4-3a81-4b41-9f0c-046f64ca572c</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5920921EB6D773E53D4AB0D9DE6FB6B7F898A99782F60CFB1A78AA3F3B2DEB8D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6cc8e6b4-3a81-4b41-9f0c-046f64ca572c_1.0.0.0_neutral__frh6kvfkqjj2p</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6cc8e6b4-3a81-4b41-9f0c-046f64ca572c_frh6kvfkqjj2p!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6cc8e6b4-3a81-4b41-9f0c-046f64ca572c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=hp</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-04T06:42:50.822</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\bin\Debug\calculatePI.exe">
+      <PackagePath>calculatePI.exe</PackagePath>
+      <Modified>2015-08-04T07:28:13.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\bin\Debug\calculatePI.xr.xml">
+      <PackagePath>calculatePI.xr.xml</PackagePath>
+      <Modified>2015-08-04T07:23:35.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-08-04T06:42:49.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-08-04T07:28:12.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\hp\documents\visual studio 2015\Projects\Personalised Interface\calculatePI\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-04T06:42:50.227</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
