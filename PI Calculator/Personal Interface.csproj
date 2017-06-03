@@ -137,6 +137,25 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Assets\BadgeLogo.scale-100.png" />
+    <Resource Include="Assets\DarkGray.png" />
+    <Resource Include="Assets\LightGray.png" />
+    <Resource Include="Assets\Logo.scale-100.png" />
+    <Resource Include="Assets\MediumGray.png" />
+    <Resource Include="Assets\PI_Background.png" />
+    <Resource Include="Assets\PI_Badge.png" />
+    <Resource Include="Assets\PI_Logo.png" />
+    <Resource Include="Assets\PI_Small.png" />
+    <Resource Include="Assets\PI_Splash.png" />
+    <Resource Include="Assets\PI_Splash.scale-100.png" />
+    <Resource Include="Assets\PI_Square150x150.png" />
+    <Resource Include="Assets\PI_Store.png" />
+    <Resource Include="Assets\PI_Wide.png" />
+    <Resource Include="Assets\SmallLogo.scale-100.png" />
+    <Resource Include="Assets\SplashScreen.scale-100.png" />
+    <Resource Include="Assets\StoreLogo.scale-100.png" />
+    <Resource Include="Assets\Wide310x150Logo.scale-100.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

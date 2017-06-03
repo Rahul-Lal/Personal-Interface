@@ -6,6 +6,38 @@
       xmlns:local="clr-namespace:PI_Calculator"
       mc:Ignorable="d" Height="750" Width="1250" Title="Personal Interface | Calculator">
 
+    <Page.Resources>
+        <Style x:Name="numeralButtons" x:Key="numeralButtons" TargetType="Button">
+            <!-- -->
+            <Setter Property="Background" Value="#540076A2" />
+            <Setter Property="BorderBrush" Value="White" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="25" />
+            <!--<Setter Property="" Value="" /> -->
+        </Style>
+
+        <Style x:Name="clearButtons" x:Key="clearButtons" TargetType="Button">
+            <!-- -->
+            <Setter Property="Background" Value="#84112233" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderBrush" Value="#540076A2" />
+            <Setter Property="FontSize" Value="25" />
+            <!--<Setter Property="" Value="" /> -->
+        </Style>
+
+        <Style x:Name="functionButtons" x:Key="functionButtons" TargetType="Button">
+            <!-- -->
+            <Setter Property="Background" Value="#84112233" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="BorderBrush" Value="#540076A2" />
+            <Setter Property="FontSize" Value="25" />
+            <!--<Setter Property="" Value="" /> -->
+        </Style>
+    </Page.Resources>
+    <Page.Background>
+        <ImageBrush ImageSource="Assets/PI_Background.png"/>
+    </Page.Background>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition />
@@ -30,35 +62,34 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-
         <!--Read-Only text box for outputting of the values-->
         <TextBox x:Uid="txtOutput" x:Name="txtOutput" Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="0" Grid.RowSpan="2" IsReadOnly="True" RenderTransformOrigin="0.48,2.52" Background="{x:Null}" Margin="5,20,0,0" Foreground="#FFBFBFBF" FontSize="72" FontFamily="Segoe UI Light" />
 
         <!--Buttons for adding numerials-->
-        <Button Content="1" x:Uid="btnOne" x:Name="btnOne" Grid.Column="1" Grid.Row="5" Click="btnOne_Click" Width="auto" Height="auto"  />
-        <Button Content="2" x:Uid="btnTwo" x:Name="btnTwo" Grid.Column="2" Grid.Row="5" Click="btnTwo_Click" Width="auto" Height="auto"  />
-        <Button Content="3" x:Uid="btnThree" x:Name="btnThree" Grid.Column="3" Grid.Row="5" Click="btnThree_Click" Width="auto" Height="auto"  />
-        <Button Content="4" x:Uid="btnFour" x:Name="btnFour" Grid.Column="1" Grid.Row="4" Click="btnFour_Click" Width="auto" Height="auto"  />
-        <Button Content="5" x:Uid="btnFive" x:Name="btnFive" Grid.Column="2" Grid.Row="4" Click="btnFive_Click" Width="auto" Height="auto"  />
-        <Button Content="6" x:Uid="btnSix" x:Name="btnSix" Grid.Column="3" Grid.Row="4" Click="btnSix_Click" Width="auto" Height="auto"  />
-        <Button Content="7" x:Uid="btnSeven" x:Name="btnSeven" Grid.Column="1" Grid.Row="3" Click="btnSeven_Click" Width="auto" Height="auto"  />
-        <Button Content="8" x:Uid="btnEight" x:Name="btnEight" Grid.Column="2" Grid.Row="3" Click="btnEight_Click" Width="auto" Height="auto"  />
-        <Button Content="9" x:Uid="btnNine" x:Name="btnNine" Grid.Column="3" Grid.Row="3" Click="btnNine_Click" Width="auto" Height="auto"  />
-        <Button Content="0" x:Uid="btnZero" x:Name="btnZero" Grid.Column="1" Grid.Row="6" Click="btnZero_Click" Width="auto" Height="auto"  />
-        <Button Content="CE" x:Uid="btnClearEntry" x:Name="btnClearEntry" Grid.Column="2" Grid.Row="6" Click="btnClearEntry_Click" Width="auto" Height="auto"  />
-        <Button Content="E" x:Uid="btnClearAll" x:Name="btnClearAll" Grid.Column="3" Grid.Row="6" Click="btnClearAll_Click" Width="auto" Height="auto"  />
+        <Button Content="1" x:Uid="btnOne" x:Name="btnOne" Grid.Column="1" Grid.Row="5" Click="btnOne_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}" />
+        <Button Content="2" x:Uid="btnTwo" x:Name="btnTwo" Grid.Column="2" Grid.Row="5" Click="btnTwo_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="3" x:Uid="btnThree" x:Name="btnThree" Grid.Column="3" Grid.Row="5" Click="btnThree_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="4" x:Uid="btnFour" x:Name="btnFour" Grid.Column="1" Grid.Row="4" Click="btnFour_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="5" x:Uid="btnFive" x:Name="btnFive" Grid.Column="2" Grid.Row="4" Click="btnFive_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="6" x:Uid="btnSix" x:Name="btnSix" Grid.Column="3" Grid.Row="4" Click="btnSix_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="7" x:Uid="btnSeven" x:Name="btnSeven" Grid.Column="1" Grid.Row="3" Click="btnSeven_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="8" x:Uid="btnEight" x:Name="btnEight" Grid.Column="2" Grid.Row="3" Click="btnEight_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="9" x:Uid="btnNine" x:Name="btnNine" Grid.Column="3" Grid.Row="3" Click="btnNine_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="0" x:Uid="btnZero" x:Name="btnZero" Grid.Column="1" Grid.Row="6" Click="btnZero_Click" Width="auto" Height="auto" Style="{StaticResource numeralButtons}"  />
+        <Button Content="CE" x:Uid="btnClearEntry" x:Name="btnClearEntry" Grid.Column="2" Grid.Row="6" Click="btnClearEntry_Click" Width="auto" Height="auto" Style="{StaticResource clearButtons}" />
+        <Button Content="C" x:Uid="btnClearAll" x:Name="btnClearAll" Grid.Column="3" Grid.Row="6" Click="btnClearAll_Click" Width="auto" Height="auto" Style="{StaticResource clearButtons}"  />
 
         <!--Buttons for basic arithmetic operations-->
-        <Button Content="+" x:Uid="btnAddition" x:Name="btnAddition" Grid.Column="5" Grid.Row="3" Click="btnAddition_Click" Width="auto" Height="auto"  />
-        <Button Content="-" x:Uid="btnSubtraction" x:Name="btnSubtraction" Grid.Column="5" Grid.Row="4" Click="btnSubtraction_Click" Width="auto" Height="auto"  />
-        <Button Content="x" x:Uid="btnMultiplication" x:Name="btnMultiplication" Grid.Column="5" Grid.Row="5" Click="btnMultiplication_Click" Width="auto" Height="auto"  />
-        <Button Content="÷" x:Uid="btnDivision" x:Name="btnDivision" Grid.Column="5" Grid.Row="6" Click="btnDivision_Click" Width="auto" Height="auto"  />
+        <Button Content="+" x:Uid="btnAddition" x:Name="btnAddition" Grid.Column="5" Grid.Row="3" Click="btnAddition_Click" Width="auto" Height="auto"  Style="{StaticResource functionButtons}" />
+        <Button Content="-" x:Uid="btnSubtraction" x:Name="btnSubtraction" Grid.Column="5" Grid.Row="4" Click="btnSubtraction_Click" Width="auto" Height="auto" Style="{StaticResource functionButtons}"  />
+        <Button Content="x" x:Uid="btnMultiplication" x:Name="btnMultiplication" Grid.Column="5" Grid.Row="5" Click="btnMultiplication_Click" Width="auto" Height="auto" Style="{StaticResource functionButtons}"  />
+        <Button Content="÷" x:Uid="btnDivision" x:Name="btnDivision" Grid.Column="5" Grid.Row="6" Click="btnDivision_Click" Width="auto" Height="auto" Style="{StaticResource functionButtons}" />
 
-        <Button Content="=" x:Uid="btnEquals" x:Name="btnEquals" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="7" Click="btnEquals_Click" Width="auto" Height="auto" />
-        <Button Content="p" x:Uid="btnPI" x:Name="btnPI" Grid.Column="6" Grid.Row="3" Click="btnPI_Click" Width="auto" Height="auto" />
-        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="4" Click="" Width="auto" Height="auto" />-->
-        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="5" Click="" Width="auto" Height="auto" />-->
-        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="6" Click="" Width="auto" Height="auto" />-->
+        <Button Content="=" x:Uid="btnEquals" x:Name="btnEquals" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="7" Click="btnEquals_Click" Width="auto" Height="auto" FontSize="50px" Style="{StaticResource functionButtons}"  />
+        <Button Content="π" x:Uid="btnPI" x:Name="btnPI" Grid.Column="6" Grid.Row="3" Click="btnPI_Click" Width="auto" Height="auto" Style="{StaticResource functionButtons}" />
+        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="4" Click="" Width="auto" Height="auto" Style="{StaticResource functionButtons}" />-->
+        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="5" Click="" Width="auto" Height="auto" Style="{StaticResource functionButtons}" />-->
+        <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="6" Grid.Row="6" Click="" Width="auto" Height="auto" Style="{StaticResource functionButtons}" />-->
 
         <!--<Button Content="" x:Uid="btn" x:Name="btn" Grid.Column="" Grid.Row="" Click="" Width="auto" Height="auto"  />-->
     </Grid>

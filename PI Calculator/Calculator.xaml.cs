@@ -25,11 +25,12 @@ namespace PI_Calculator
         public Calculator()
         {
             InitializeComponent();
-            this.WindowTitle = "Personal Interface | Calculator";
+            WindowTitle = "Personal Interface | Calculator";
         }
 
         // answer = firstValue + or - or * or / secondValue
         double firstValue, secondValue, answer;
+        calculateFunctions cf = new calculateFunctions();
 
         int arthiSelected;
         int[] arthiSelection = {1, 2, 3, 4};
@@ -39,8 +40,6 @@ namespace PI_Calculator
             * 3 = multiplication
             * 4 = division
          */
-
-        calculateFunctions cf = new calculateFunctions();
 
         private void btnOne_Click(object sender, RoutedEventArgs e)
         {

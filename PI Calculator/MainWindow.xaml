@@ -8,5 +8,5 @@
         Title="Personal Interface | Main Menu" Height="AUTO" Width="AUTO"
         WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded">
 
-    <Frame x:Name="mainFrame" x:Uid="mainFrame" Width="auto" Height="auto" Background="#FF3C4D51"/>
+    <Frame x:Name="mainFrame" x:Uid="mainFrame" Width="auto" Height="auto" Background="#525252"/>
 </Window>
