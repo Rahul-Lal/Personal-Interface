@@ -29,5 +29,15 @@ namespace PI_Calculator
         {
             this.NavigationService.Navigate(new Calculator());
         }
+
+        private void btnCurrency_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new ConvertCurrency());
+        }
+
+        private void btnPhonebook_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Calculator());
+        }
     }
 }

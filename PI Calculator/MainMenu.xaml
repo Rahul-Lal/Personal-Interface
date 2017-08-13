@@ -36,6 +36,8 @@
 
         <!--Buttons for each page -->
         <Button x:Uid="btnCalculator" Content="Calculator" x:Name="btnCalculator" Click="btnCalculator_Click" Grid.Column="0" Grid.Row="0" />
+        <Button x:Uid="btnCurrency" Content="Currency" x:Name="btnCurrency" Click="btnCurrency_Click" Grid.Column="2" Grid.Row="0" />
+        <Button x:Uid="btnPhonebook" Content="Phonebook" x:Name="btnPhonebook" Click="btnPhonebook_Click" Grid.Column="4" Grid.Row="0" />
 
     </Grid>
 </Page>
